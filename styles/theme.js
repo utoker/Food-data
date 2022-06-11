@@ -8,7 +8,7 @@ const fonts = {
   heading: `M PLUS Rounded 1c`,
 };
 
-const initialColor = {
+const config = {
   initialColorMode: 'dark',
   useSystemColorMode: false,
 };
@@ -16,7 +16,7 @@ const initialColor = {
 const override = {
   ...chakraTheme,
   fonts,
-  initialColor,
+  config,
 };
 
 const customTheme = extendTheme(override);
