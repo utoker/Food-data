@@ -1,6 +1,7 @@
 import { Html, Head, Main, NextScript } from 'next/document';
 import { GoogleFonts } from 'next-google-fonts';
 import { ColorModeScript } from '@chakra-ui/react';
+import theme from '../styles/theme';
 
 export default function Document() {
   return (
@@ -9,7 +10,7 @@ export default function Document() {
       <Head />
       <body>
         <Main lang="en" />
-        <ColorModeScript />
+        <ColorModeScript initialColorMode={theme.config.initialColorMode} />
         <NextScript />
       </body>
     </Html>
