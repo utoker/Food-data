@@ -38,7 +38,6 @@ export default function Home() {
     }
   };
   const enterSearch = (e) => {
-    console.log(e);
     if (e.key === 'Enter') {
       getFood();
     }
