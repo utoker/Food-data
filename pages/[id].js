@@ -8,7 +8,9 @@ import FoodDetail from '../component/FoodDetail';
 const Details = () => {
   const router = useRouter();
   const { id } = router.query;
-  const apiKey = process.env.NEXT_PUBLIC_DB_KEY;
+  // const apiKey = process.env.NEXT_PUBLIC_KEY;
+  const apiKey = 'icBngbwgTFe5YAmzOf4teKUNCLfUnbO3m8vFwM09';
+
   const url = `/food/${id}?api_key=${apiKey}`;
   const [data, setData] = useState(null);
   const [isLoading, setIsLoading] = useState('');

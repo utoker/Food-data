@@ -28,7 +28,8 @@ export default function Home() {
   };
 
   const getFood = async () => {
-    const apiKey = process.env.NEXT_PUBLIC_KEY;
+    // const apiKey = process.env.NEXT_PUBLIC_KEY;
+    const apiKey = 'icBngbwgTFe5YAmzOf4teKUNCLfUnbO3m8vFwM09';
     const url = `/foods/search?api_key=${apiKey}&query=${input}&dataType=Survey (FNDDS)&pageSize=12`;
     try {
       const res = await axios.get(url);
