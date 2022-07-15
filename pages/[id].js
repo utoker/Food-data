@@ -6,7 +6,7 @@ import FoodDetail from '../component/FoodDetail';
 
 const Details = ({ data }) => {
   let desc;
-  if (data && data.foodAttributes.hasOwnProperty(2)) {
+  if (data && data.foodAttributes?.hasOwnProperty(2)) {
     desc = data.foodAttributes[2].value;
   }
   return (
@@ -14,7 +14,9 @@ const Details = ({ data }) => {
       title={data && data.description}
       desc={desc}
       nuts={data && data.foodNutrients}
-      foodCategory={data && data.wweiaFoodCategory.wweiaFoodCategoryDescription}
+      foodCategory={
+        data && data.wweiaFoodCategory?.wweiaFoodCategoryDescription
+      }
       loading={false}
       error={false}
     />
