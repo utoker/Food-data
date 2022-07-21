@@ -5,6 +5,7 @@ import axios from '../component/Axios';
 import FoodDetail from '../component/FoodDetail';
 
 const Details = ({ data }) => {
+  console.log('data', data);
   let desc;
   if (data && data.foodAttributes?.hasOwnProperty(2)) {
     desc = data.foodAttributes[2].value;
