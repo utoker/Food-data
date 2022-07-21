@@ -1,10 +1,14 @@
-A website for getting nutrient profile data of requested food from USDA Food Database with Rest API.
-I did this project to look up a food's nutrients in seconds without having to google it.
+<h1>FoodData App</h1>
 
-• Sourced data from the United States Department of Agriculture's Food Database via REST API by implementing Axios.
-• Enabled server-side rendering by utilizing Next.js.
-• Designed React components by implementing Chakra UI.
-• Maintained up-to-date knowledge of current and emerging technologies, products, and trends related to the project.
+<p>A website for getting nutrient profile data of requested food from USDA Food Database with Rest API.
+I did this project to look up a food's nutrients in seconds without having to google it.</p>
+
+<ul>
+  <li>Sourced data from the United States Department of Agriculture's Food Database via REST API by implementing Axios.</li>
+  <li>Enabled server-side rendering by utilizing Next.js.</li>
+    <li>Designed React components by implementing Chakra UI.</li>
+    <li>Maintained up-to-date knowledge of current and emerging technologies, products, and trends related to the project.</li>
+</ul>
 
 ## Built With
 
