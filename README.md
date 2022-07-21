@@ -1,6 +1,6 @@
 <h1>FoodData App</h1>
 
-<p>FoodData App is a web app for getting nutrient profile data of requested food from United States Department of Agriculture's Food Database with Rest API.</p>
+<p>FoodData App is a web app for getting nutrient profile data of requested food from the United States Department of Agriculture's Food Database with Rest API.</p>
 <p>I did this project to look up a food's nutrients in seconds without having to google it.</p>
 
 <ul>
