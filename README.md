@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a href="https://food-data-app.vercel.app/">
-    <img src="src/public/food-data.gif" alt="Gif">
+    <img src="public/fooddata.gif" alt="Gif">
   </a>
 
 <h3 align="center">FoodData App</h3>
