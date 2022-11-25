@@ -1,7 +1,6 @@
 /* eslint-disable no-prototype-builtins */
 /* eslint-disable no-undef */
 import axios from '../component/Axios';
-
 import FoodDetail from '../component/FoodDetail';
 
 const Details = ({ data }) => {
