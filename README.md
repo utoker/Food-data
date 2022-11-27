@@ -9,9 +9,9 @@
     <img src="public/fooddata.gif" alt="Gif">
   </a>
 
-<h3 align="center">FoodData App</h3>
+<h3 align="center">Food Data</h3>
     <br />
-    <a href="https://github.com/utoker/FoodData-App/tree/main/src"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/utoker/Food-data/tree/main/src"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://www.reqq.cc/">View Website</a>
@@ -19,7 +19,7 @@
 
 ## About The Project
 
-<p>FoodData App is a web app for getting nutrient profile data of requested food from the United States Department of Agriculture's Food Database with Rest API.</p>
+<p>Food data is a web app for getting nutrient profile data of requested food from the United States Department of Agriculture's Food Database with Rest API.</p>
 
 <ul>
   <li>Sourced data from the USDA via REST API by implementing Axios.</li>
