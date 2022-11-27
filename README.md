@@ -28,11 +28,11 @@
     <li>Maintained up-to-date knowledge of current and emerging technologies, products, and trends related to the project.</li>
 </ul>
 
-## Usage
+<!-- ## Usage
 
 Use the text input bar to enter the food you want to get nutrient profile.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p> -->
 
 ## Built With
 
